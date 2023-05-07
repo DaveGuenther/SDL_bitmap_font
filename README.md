@@ -32,7 +32,10 @@ Then you can include SDL_bitmap_font.h where you plan to use it
 ## Creating Fonts
 In order to provide maximum flexibility to the user, fonts are defined as a PNG file with the height of the maximum typeset glyph height
 
-
+<p align="center"><img src="https://github.com/DaveGuenther/SDL_bitmap_font/blob/main/doc/Bitmap_Layout.png">
+  <br><i>Bitmap Font Image Layout</i>
+</p>
+<br>
 
 
 
