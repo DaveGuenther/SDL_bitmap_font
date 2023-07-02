@@ -36,6 +36,7 @@ In order to provide maximum flexibility to the user, fonts are defined as a PNG 
   <br><i>Bitmap Font Image Layout</i>
 </p>
 <br>
+For now the class just supports monospaced fonts (Each character is the same width of pixels).  Fonts in this library provide ASCII codes 32 to 127.  Code 127 should be a default character that is placed to represent an invalid character.  In the event that a string is passed to the class to display, any ASCII characters outside the 23-127 code range will display as ASCII code 127.  In the included example font, that character looks like a square.  When determining <code>glyph_y</code>, be sure that the total Y value can accomodate any single character in the font.  With this in mind, think about characters like {,[,],},(,),j,g, and |.<br>
 
 
 
